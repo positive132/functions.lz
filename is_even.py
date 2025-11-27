@@ -6,3 +6,4 @@ def chislo(C):
         print('Ваше число четное')
     elif C % 2 != 0:
         print('Ваше число нечетное')
+print(chislo(C))        
