@@ -11,3 +11,8 @@ def pl(R):
 b = pl(R)    
 print('Площадь круга в см:' , b)
 
+def main() :
+    a = dlina(R)
+    b = pl(R)    
+if __name__ == '__main__' :
+    main()
