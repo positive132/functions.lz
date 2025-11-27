@@ -1,0 +1,7 @@
+import math 
+print ('Введите температуру в градусах Цельсия:')
+C = float(input())
+def temp(C):
+    return C * 1.8 + 32
+a = temp(C)    
+print('Значение в градусах по Фаренгейту:', a)
