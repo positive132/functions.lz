@@ -7,6 +7,8 @@ a = summa(S)
 print('Вот ваша сумма всех чисел с предоставленного списка', a)
 
 def main() :
+    S = (input()).split()
     a = summa(S)  
 if __name__ == '__main__' :
     main()
+
