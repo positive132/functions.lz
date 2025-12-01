@@ -1,6 +1,5 @@
 import math 
-print ('Введите радиус круга в сантиметра:')
-R = float(input())
+R = float(input('Введите радиус круга в сантиметра:'))
 def dlina(R):
     return 3.14 * 2 * R 
 a = dlina(R)    
@@ -12,7 +11,10 @@ b = pl(R)
 print('Площадь круга в см:' , b)
 
 def main() :
+    R = float(input())
     a = dlina(R)
     b = pl(R)    
 if __name__ == '__main__' :
     main()
+
+
