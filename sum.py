@@ -1,6 +1,6 @@
 import math 
-S = (input('Введите ваш список для нахождения их суммы:')).split()
-def summa(S):
+def summa():
+    S = (input('Введите ваш список для нахождения их суммы:')).split()
     return sum([float(x) for x in S])
 a = summa(S)  
 
@@ -11,4 +11,5 @@ def main() :
     a = summa(S)  
 if __name__ == '__main__' :
     main()
+
 
