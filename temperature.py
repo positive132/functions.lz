@@ -1,15 +1,13 @@
 import math 
-C = float(input('Введите температуру в градусах Цельсия:'))
-def temp():
-    C = float(input('Введите температуру в градусах Цельсия:'))
-    return C * 1.8 + 32
-a = temp(C)    
-print('Значение в градусах по Фаренгейту:', a)
+def temp(C):
+    return C * 1.8 + 32   
 
 def main() :
-    C = float(input())
+    C = float(input('Введите температуру в градусах Цельсия:'))
     a = temp(C)  
+    print('Значение в градусах по Фаренгейту:', a)
 if __name__ == '__main__' :
+    
     main()
 
 
